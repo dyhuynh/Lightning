@@ -4,10 +4,11 @@ void setup()
   frameRate(10);
   noLoop();
   background(0);
+  	sea();
+
 }
 void draw() {
 	clouds();   
-	sea();
 int x=0;
   int y=0;
  int startX = mouseX;
